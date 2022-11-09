@@ -2,6 +2,8 @@
 
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
+## Url[Live Site](https://prefresh.github.io/SINGLE-PRICE-GRID-COMPONENT/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
