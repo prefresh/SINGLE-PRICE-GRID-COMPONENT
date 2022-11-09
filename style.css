@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+}
+
+.background{
+    background-color: hsl(204, 43%, 93%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 80px; */
+}
+
+.rating_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top {
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 30px;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sub_head {
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.sub_body {
+    font-size: 17px;
+    color: hsl(218, 22%, 67%);
+    line-height: 30px;
+}
+
+.card {
+    background-color: hsl(179, 62%, 43%);
+    width: 300px;
+    height: 250px;
+    border-bottom-left-radius: 8px;
+    padding: 30px;
+}
+
+
+.text_head {
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+}
+
+.price {
+    font-size: 35px;
+    color: hsla(204, 43%, 93%, 1.8);
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.month {
+    font-size: 15px;
+    color: hsla(204, 43%, 93%, 0.7);
+    margin-top: 10px;
+}
+
+.text_subhead {
+    font-size: 18px;
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sign {
+    background-color: hsl(71, 73%, 54%);
+    width: 240px;
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    color: hsl(204, 43%, 93%);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.box {
+    background-color: hsla(179, 62%, 43%, 0.7);
+    width: 300px;
+    height: 250px;
+    border-bottom-right-radius: 8px;
+    padding: 30px;
+}
+
+.txt_head {
+    color: hsl(204, 43%, 93%);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.txt {
+    color: hsla(204, 43%, 93%, 0.7);
+    font-size: 17px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 990px) {
+    .background {
+        height: 100%;
+        padding: 10px;
+    }
+    .rating_card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .top {
+        height: 340px;
+        width: 330px;
+    }
+
+    .down {
+        flex-direction: column;
+    }
+    
+    .card {
+        border-bottom-left-radius: 0;
+        width: 330px;
+    }
+
+    .box {
+        border-bottom-left-radius: 8px;
+        width: 330px;
+    }
+
+    .sign {
+        width: 280px;
+    }
+
+    .txt {
+        line-height: 25px;
+    }
+}
